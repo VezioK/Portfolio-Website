@@ -253,8 +253,8 @@ body{
 .project-cards {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr)); 
-    column-gap: 500px;
-    row-gap: 60px;
+    column-gap: 80px;
+    row-gap: 40px;
     justify-items: center;
     margin: 140px auto 200px;
     max-width: 1200px;
@@ -474,4 +474,12 @@ body{
     color: #1F2937;
     margin: 0;
     line-height: 1.7;
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: ) {
+    
 }
