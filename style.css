@@ -1,6 +1,9 @@
 /*google font for julias sans*/
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
+/*google font for cormorant garamond*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -172,11 +175,11 @@ body{
 }
 
 .about-professional-text {
-    font-family: "Julius Sans One", sans-serif;
-    font-size: 14px;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 17px;
     line-height: 1.8;
-    color: #1F2937;
-    letter-spacing: .5px;
+    color: #000000;
+    letter-spacing: 0.9px;
     margin-bottom: 18px;
 }
 
@@ -204,6 +207,65 @@ body{
     text-decoration: none;
 }
 
+
+/* ------------------Projects Page------------------ */
+
+.project-card-link {
+    text-decoration: none;   
+    color: inherit;         
+    display: block;         
+}
+
+.project-card-link:hover {
+    cursor: pointer;         
+}
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+    column-gap: 140px;
+    row-gap: 40px;
+    justify-items: center;
+    margin: 140px auto 200px;
+    max-width: 1200px;
+    padding: 0 24px;
+}
+
+.project-card {
+    width: 360px;
+    height: 480px;
+    background-color: #E5E7EB; 
+    border-radius: 30px;
+    padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.project-card:hover {
+    background-color: #aeb2bb;  
+    transform: translateY(-4px); 
+}
+
+.project-image {
+    width: 100%;         
+    height: 200px;       
+    object-fit: cover;    
+    border-radius: 18px;
+    margin-bottom: 5px;
+    display: block;       
+}
+
+.project-text {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+}
+
+
 .project-row {
     display: flex;
     align-items: center;
@@ -223,12 +285,6 @@ body{
     box-shadow: 0 16px 30px rgba(15, 23, 42, 0.10);
 }
 
-.project-image img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 16px;
-}
 
 .project-description {
     font-family: "Julius Sans One", sans-serif;
@@ -237,62 +293,6 @@ body{
     color: #1F2937;
     line-height: 1.8;
     max-width: 650px;
-}
-
-/* ------------------Projects Page------------------ */
-
-.project-card-link {
-    text-decoration: none;   
-    color: inherit;         
-    display: block;         
-}
-
-.project-card-link:hover {
-    cursor: pointer;         
-}
-.project-cards {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr)); 
-    column-gap: 80px;
-    row-gap: 40px;
-    justify-items: center;
-    margin: 140px auto 200px;
-    max-width: 1200px;
-    padding: 0 24px;
-}
-
-.project-card {
-    width: 360px;
-    height: 420px;
-    background-color: #D9D9D9; 
-    border-radius: 30px;
-    padding: 30px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-    transition: background-color 0.25s ease, transform 0.25s ease;
-}
-
-.project-card:hover {
-    background-color: #aeb2bb;  
-    transform: translateY(-4px); 
-}
-
-.project-image {
-    width: 100%;
-    height: 200px;
-    border-radius: 18px;
-    object-fit: cover;       
-    margin-bottom: 24px;
-}
-
-.project-text {
-    font-family: "Julius Sans One", sans-serif; 
-    font-size: 12px;
-    letter-spacing: 1px;
-    color: #1F2937;
-    text-align: center;
 }
 
 /* ------------------ Experience ------------------ */
@@ -423,10 +423,10 @@ body{
 }
 
 .skill-list li {
-    font-family: "Julius Sans One", sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.8px;
-    color: #1F2937;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    color: #000000;
     margin-bottom: 4px;
 }
 
