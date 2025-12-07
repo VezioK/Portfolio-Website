@@ -141,7 +141,7 @@ body{
 }
 
 .footer-item {
-    font-family: "Julius Sans One", sans-serif;
+    font-family: "Cormorant Garamond", sans-serif;
     font-size: 14px;
     letter-spacing: 1px;
     color: #1F2937;
@@ -150,6 +150,17 @@ body{
 .footer-link {
     color: #1F2937;
     text-decoration: none;
+}
+
+.footer-item a,
+.git-link {
+    color: #1F2937;        /* same as footer text */
+    text-decoration: none; /* remove blue underline */
+}
+
+.footer-item a:hover,
+.git-link:hover {
+    text-decoration: underline;
 }
 
 /* ------------------About Section------------------ */
@@ -337,18 +348,18 @@ body{
     border-bottom: 1px solid #D1D5DB;
 }
 
-.experience-role {
+.experience-company {
     font-family: "Julius Sans One", sans-serif;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
     color: #1F2937;
     margin: 0 0 4px 0;
     text-transform: uppercase;
 }
 
-.experience-company {
+.experience-role {
     font-family: "Julius Sans One", sans-serif;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1px;
     color: #4B5563;
     margin: 0;
@@ -366,8 +377,8 @@ body{
 .experience-description {
     margin: 8px 0 0 18px;
     padding: 0;
-    font-family: "Julius Sans One", sans-serif;
-    font-size: 12px;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 14px;
     letter-spacing: 0.5px;
     color: #1F2937;
     line-height: 1.6;
