@@ -110,6 +110,7 @@ body{
     letter-spacing: 1px;
     color: #1F2937;
     margin-bottom: 25px;
+    text-align: center; /*keep until headshot is added*/
 }
 
 .hero-info {
@@ -118,6 +119,7 @@ body{
     letter-spacing: 1px;
     color: #1F2937;
     margin-bottom: 20px;
+    text-align: center; /*keep until headshot is added*/
 }
 
 .hero-contactlink {
@@ -126,6 +128,7 @@ body{
     letter-spacing: 1px;
     color: #1F2937;
     text-decoration: none;
+    padding-left: 100px; /*keep until headshot is added*/
 }
 
 /* ------------------Footer------------------ */
