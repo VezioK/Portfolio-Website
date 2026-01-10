@@ -878,10 +878,15 @@ body{
         font-size: 26px;
     }
 
-    .hero-info,
+    .hero-info{
+        font-size: 12px;
+        letter-spacing: 0.09em;
+    }
+
     .hero-contactlink {
         font-size: 12px;
         letter-spacing: 0.09em;
+        padding-right: 80px; /*keep until headshot added*/
     }
 
 /*----------Experience----------*/
